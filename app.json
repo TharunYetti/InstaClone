@@ -4,7 +4,7 @@
     "slug": "InstaClone",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/InstaClone.webp",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -19,10 +19,18 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.tharuny.InstaClone"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favx": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9caa20a5-1e73-4c07-bc4b-39e648fccda2"
+      }
+    },
+    "owner": "tharuny",
+    "main":"index.js"
   }
 }
